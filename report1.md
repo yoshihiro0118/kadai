@@ -1,3 +1,7 @@
 
-# レポート課題
+# 課題1　レポート
+
+標準画像「police.png」とする。
+`ORG=imread('Lenna.png'); % 原画像の入力`
+`imagesc(ORG); axis image; % 画像の表示`
 
