@@ -8,4 +8,4 @@
 
 ![現画像](image/police.png)
 
-![1/2](iamge/police1.png)
+![1/2](image/police1.png)
