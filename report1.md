@@ -9,3 +9,7 @@
 ![現画像](image/police.png)
 
 ![1/2](image/police1.png)
+![1/4](image/police2.png)
+![1/8](image/police3.png)
+![1/16](image/police4.png)
+![1/32](image/police5.png)
