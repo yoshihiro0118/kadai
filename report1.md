@@ -30,6 +30,7 @@
 ![1/4](https://github.com/yoshihiro0118/test/blob/master/image/police2.png)
 
 図3 1/4サンプリング  
+
 1/8サンプリングは，
 
 `IMG = imresize(ORG,0.5); % 画像の縮小`  
@@ -51,6 +52,7 @@
 ![1/16](https://github.com/yoshihiro0118/test/blob/master/image/police4.png)
 
 図5 1/16サンプリング
+
 1/32サンプリングは、
 `IMG = imresize(ORG,0.5); % 画像の縮小`  
 `IMG2 = imresize(IMG,32,'box'); % 画像の拡大`
