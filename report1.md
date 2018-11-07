@@ -18,32 +18,44 @@
 
 ![1/2](https://github.com/yoshihiro0118/test/blob/master/image/police1.png)
 
-図2 1/2サンプリング
-同様に原画像を1/4サンプリングするには，画像を1/2倍に縮小した後，2倍に拡大すればよい．すなわち，
+図2 1/2サンプリング  
+同様に原画像を1/4サンプリングするには，画像を1/2倍に縮小した後，4倍に拡大すればよい．すなわち，
 
 `IMG = imresize(ORG,0.5); % 画像の縮小`  
-`IMG2 = imresize(IMG,2,'box'); % 画像の拡大`
+`IMG2 = imresize(IMG,4,'box'); % 画像の拡大`
 
 とする．1/4サンプリングの結果を図３に示す．
 
 
 ![1/4](https://github.com/yoshihiro0118/test/blob/master/image/police2.png)
 
-図3 1/4サンプリング
-1/8から1/32サンプリングは，
+図3 1/4サンプリング  
+1/8サンプリングは，
 
 `IMG = imresize(ORG,0.5); % 画像の縮小`  
-`IMG2 = imresize(IMG,2,'box'); % 画像の拡大`
+`IMG2 = imresize(IMG,8,'box'); % 画像の拡大`
 
-を繰り返す．サンプリングの結果を図4~6に示す
+1/8サンプリングの結果を図３に示す．
+
 
 ![1/8](https://github.com/yoshihiro0118/test/blob/master/image/police3.png)
 
 図4 1/8サンプリング
 
+1/16サンプリングは、
+`IMG = imresize(ORG,0.5); % 画像の縮小`  
+`IMG2 = imresize(IMG,16,'box'); % 画像の拡大`
+
+1/16サンプリングの結果を図３に示す．
+
 ![1/16](https://github.com/yoshihiro0118/test/blob/master/image/police4.png)
 
 図5 1/16サンプリング
+1/32サンプリングは、
+`IMG = imresize(ORG,0.5); % 画像の縮小`  
+`IMG2 = imresize(IMG,32,'box'); % 画像の拡大`
+
+1/32サンプリングの結果を図３に示す．
 
 ![1/32](https://github.com/yoshihiro0118/test/blob/master/image/police5.png)
 
