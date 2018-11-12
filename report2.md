@@ -36,4 +36,5 @@
 `IMG6 = ORG>224;`  
 `IMG = IMG0 + IMG1 + IMG2 + IMG3 + IMG4 + IMG5 + IMG6;`  
 `imagesc(IMG); colormap(gray); colorbar;  axis image;`  
+
 図4 8階調画像
