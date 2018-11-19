@@ -37,7 +37,7 @@
 `IMG = imresize(ORG,0.5); % 画像の縮小`  
 `IMG2 = imresize(IMG,8,'box'); % 画像の拡大`
 
-1/8サンプリングの結果を図３に示す．
+1/8サンプリングの結果を図4に示す．
 
 
 ![1/8](https://github.com/yoshihiro0118/kadai/blob/master/image/cat1-3.jpg)
@@ -49,7 +49,7 @@
 `IMG = imresize(ORG,0.5); % 画像の縮小`  
 `IMG2 = imresize(IMG,16,'box'); % 画像の拡大`
 
-1/16サンプリングの結果を図３に示す．
+1/16サンプリングの結果を図5に示す．
 
 ![1/16](https://github.com/yoshihiro0118/kadai/blob/master/image/cat1-4.jpg)
 
@@ -60,7 +60,7 @@
 `IMG = imresize(ORG,0.5); % 画像の縮小`  
 `IMG2 = imresize(IMG,32,'box'); % 画像の拡大`
 
-1/32サンプリングの結果を図３に示す．
+1/32サンプリングの結果を図6に示す．
 
 ![1/32]https://github.com/yoshihiro0118/kadai/blob/master/image/cat1-5.jpg)
 
