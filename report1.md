@@ -62,6 +62,6 @@
 
 1/32サンプリングの結果を図6に示す．
 
-![1/32]https://github.com/yoshihiro0118/kadai/blob/master/image/cat1-5.jpg)
+![1/32](https://github.com/yoshihiro0118/kadai/blob/master/image/cat1-5.jpg)
 
 図6 1/32サンプリング
