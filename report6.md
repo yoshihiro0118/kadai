@@ -11,16 +11,16 @@
 
 図1 原画像のグレースケール
 
-128による二値化は
-`IMG = ORG>128; % 128による二値化`
+128による二値化は  
+`IMG = ORG>128; % 128による二値化`  
 `imagesc(IMG); colormap(gray); colorbar; % 画像の表示`
 
 ![128](https://github.com/yoshihiro0118/kadai/blob/master/image06/cat6-2.jpg)
 
 図2 128による二値化
 
-ディザ法による二値化は
-`IMG = dither(ORG); % ディザ法による二値化`
+ディザ法による二値化は  
+`IMG = dither(ORG); % ディザ法による二値化`  
 `imagesc(IMG); colormap(gray); colorbar; % 画像の表示`
 
 ![ディザ法](https://github.com/yoshihiro0118/kadai/blob/master/image06/cat6-3.jpg)
